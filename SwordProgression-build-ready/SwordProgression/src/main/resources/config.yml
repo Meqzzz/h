@@ -1,0 +1,18 @@
+progression:
+  stage2-energy: 5
+  stage3-energy: 15
+rolling:
+  duration-ticks: 100
+  weights:
+    infernal: 1
+    shadow: 1
+    thunder: 1
+    earth: 1
+    frost: 1
+    vitality: 1
+combat:
+  same-victim-cooldown-seconds: 120
+abilities:
+  ability1-cooldown-seconds: 12
+  ability2-cooldown-seconds: 22
+  ultimate-cooldown-seconds: 55

@@ -1,0 +1,16 @@
+name: SwordProgression
+version: 0.1.0
+main: dev.swordsmp.SwordProgressionPlugin
+api-version: '1.21.11'
+author: SwordSMP
+commands:
+  sword:
+    description: Sword commands and admin tools
+    usage: /sword <list|reroll|change|progression|give>
+  energy:
+    description: Admin sword energy commands
+    usage: /energy <give|set|reset> <player> [amount]
+permissions:
+  swordprogression.admin:
+    description: Access to all sword testing commands
+    default: op
